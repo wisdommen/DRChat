@@ -1,0 +1,17 @@
+name: DRChat
+main: com.minecraft.plugins.deathrun.chat.Chat
+version: 0.0.1
+
+commands:
+  cc:
+    description: 换聊天颜色
+    usage: /chatcolor [颜色]
+    permission: cc.vip
+  ccgiveprms:
+    description: 给玩家修改聊天颜色的权限
+    usage: /giveccprms [玩家]
+    permission: op
+  ccremoveprms:
+    description: 夺取玩家修改聊天颜色的权限
+    usage: /removeccprms [玩家]
+    permission: op
